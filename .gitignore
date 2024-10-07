@@ -1,0 +1,109 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Static Libraries
+*.lib
+*.a
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Executable Files
+*.exe
+*.out
+*.app
+
+# Debugging Files
+*.pdb
+*.dir
+*.idb
+*.tlog
+
+# Temporary Files
+*.tmp
+*.log
+*.dmp
+*.plist
+*.hmap
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+[Cc]MakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+CMakeLists.txt.user
+build/
+cmake-build-*/
+compile_commands.json
+
+# Code Coverage
+*.gcda
+*.gcno
+*.gcov
+*.gcda.*
+*.gcno.*
+
+# Rider & Writerside specific project files
+.idea/
+.idea/*
+*.ilk
+*.exe.recipe
+
+# Rider workspace files (user-specific settings)
+*.sln.iml
+*.sln.ide.*
+
+# Rider's temporary folders and caches
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Rider configuration file
+.vscode/
+
+# JetBrains specific binary cache files
+.idea/modules.xml
+.idea/misc.xml
+.idea/assetWizard/
+
+# ReSharper files
+*.DotSettings.user
+*.ReSharper
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Ninja
+.ninja_log
+.ninja_deps
+
+# Make
+*.d
+*.cmd
+
+# Ignore build artifacts and debug files
+Client/Client/x64/Debug/
+Server/Server/x64/Debug/
+
+# Ignore Writerside-specific files
+Server/Writerside/c.list
+Server/Writerside/cfg/
+Server/Writerside/redirection-rules.xml
+Server/Writerside/s.tree
+Server/Writerside/v.list
+Server/Writerside/writerside.cfg
+
+# Include documentation images and markdown
+!Server/Writerside/topics/
+Server/Writerside/images/*.png
+
+
